@@ -32,6 +32,7 @@ module.exports = {
 module.exports = {
   extends: 'out'
 }
+
 ➜  eslint-test git:(master) ✗ npm test
 
 > eslint-test@1.0.0 test /Users/iamstarkov/projects/eslint-test
