@@ -15,6 +15,7 @@ module.exports = {
     indent: [2, 2]
   }
 }
+
 ➜  eslint-test git:(master) ✗ cat node_modules/eslint-config-out/package.json | grep "\"eslint-config-in\":"
     "eslint-config-in": "github:iamstarkov/eslint-config-in"
 ➜  eslint-test git:(master) ✗ cat node_modules/eslint-config-out/.eslintrc.js
@@ -24,6 +25,7 @@ module.exports = {
    quotes: [2, 'single']
   }
 }
+
 ➜  eslint-test git:(master) ✗ cat package.json | grep eslint-config
     "eslint-config-out": "github:iamstarkov/eslint-config-out"
 ➜  eslint-test git:(master) ✗ cat .eslintrc.js
