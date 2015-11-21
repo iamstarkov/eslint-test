@@ -1,6 +1,6 @@
 # eslint v1.10 shareable configs test
 
-tldr: it’s working!
+tldr: it’s working! [issue](https://github.com/eslint/eslint/issues/4263)
 
 * [eslint-config-in](https://github.com/iamstarkov/eslint-config-in)
 * [eslint-config-out](https://github.com/iamstarkov/eslint-config-out)
