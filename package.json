@@ -1,0 +1,16 @@
+{
+  "name": "eslint-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^1.10.1",
+    "eslint-config-out": "github:iamstarkov/eslint-config-out"
+  }
+}
