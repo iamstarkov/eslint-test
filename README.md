@@ -33,17 +33,13 @@ module.exports = {
   extends: 'out'
 }
 
-➜  eslint-test git:(master) ✗ npm test
+➜  eslint-test git:(master) ✗ cat index.js
+function test() {
+    return "yo";
+}
 
-> eslint-test@1.0.0 test /Users/iamstarkov/projects/eslint-test
-> eslint .
-
-
+➜  eslint-test git:(master) ✗ ./node_modules/.bin/eslint .
 /Users/iamstarkov/projects/eslint-test/index.js
   2:5   error  Expected indentation of 2 space characters but found 4  indent
   2:12  error  Strings must use singlequote                            quotes
-
 ✖ 2 problems (2 errors, 0 warnings)
-
-npm ERR! Test failed.  See above for more details.
-```
