@@ -1,5 +1,7 @@
 # eslint v1.10 shareable configs test
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/iamstarkov/eslint-test.svg)](https://greenkeeper.io/)
+
 tldr: it’s working! [issue](https://github.com/eslint/eslint/issues/4263)
 
 * [eslint-config-in](https://github.com/iamstarkov/eslint-config-in)
